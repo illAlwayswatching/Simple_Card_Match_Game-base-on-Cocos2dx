@@ -12,8 +12,7 @@
   - **Model**：`GameModel` / `CardModel` / `UndoModel` 管理状态与历史  
   - **View**：`DeckFieldView`, `BottomFieldView`, `StackView` 等组件化 UI  
   - **Controller**：`GameController`, `DeckFieldController` 分离逻辑与表现  
-- **撤销系统**：支持多步撤销（`UndoManager` + `UndoService`），记录可回滚快照  
-- **动画友好**：统一 `playMoveAnimation` / `playFlipAnimation` 接口，支持回调链  
+- **撤销系统**：支持多步撤销（`UndoManager` + `UndoService`），记录可回滚快照   
 - **高扩展性**：新增玩法（如记忆翻牌、接龙）仅需扩展 `MatchService` 与 `BackupService`
 
 ---
